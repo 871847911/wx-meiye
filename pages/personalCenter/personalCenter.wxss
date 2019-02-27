@@ -1,0 +1,24 @@
+/* pages/personalCenter/personalCenter.wxss */
+.head{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head_img{
+  height: 160rpx;
+  width: 160rpx;
+}
+.text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn-area{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  z-index: 7;
+  
+}

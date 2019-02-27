@@ -1,0 +1,30 @@
+/* pages/technician/technician.wxss */
+
+.oneperson{
+  padding-bottom: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+  width: 500rpx;
+
+}
+.head_img{
+  width: 160rpx;
+  height: 160rpx;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nochose{
+  width: 750rpx;
+  z-index: 7;
+  position: fixed;
+  bottom: 0;
+}

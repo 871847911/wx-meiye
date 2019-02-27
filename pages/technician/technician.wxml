@@ -1,0 +1,15 @@
+<!--pages/technician/technician.wxml-->
+<view class='container'>
+  <block wx:for="{{technician}}">
+    <view class='oneperson'>
+      <view class='head' bindtap='goto'>
+        <image class='head_img' src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+        <view class='name'>{{item.name}}
+          <view class='job'>染烫师</view>
+        </view>
+      </view>
+      <view class='sure' bindtap='gotoDetails'>选择</view>
+    </view>
+  </block>
+  <button class='nochose'>不指定技师</button>
+</view>

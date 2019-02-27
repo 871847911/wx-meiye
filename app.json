@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/storedetails/storedetails",
+    "pages/serviceList/serviceList",
+    "pages/order/order",
+    "pages/technician/technician",
+    "pages/technicianDetails/technicianDetails",
+    "pages/hisService/hisService",
+    "pages/choseservice/choseservice",
+    "pages/orderSuccess/orderSuccess",
+    "pages/paySuccess/paySuccess",
+    "pages/personalCenter/personalCenter",
+    "pages/payfor/payfor",
+    "pages/personalInformation/personalInformation",
+    "pages/bindingPhoneNumber/bindingPhoneNumber",
+    "pages/coupon/coupon",
+    "pages/myReservation/myReservation",
+    "pages/myReservationList/myReservationList",
+    "pages/cancel/cancel",
+    "pages/serviceInOurShop/serviceInOurShop",
+    "pages/serviceDetails/serviceDetails",
+    "pages/technicianInShop/technicianInShop",
+    "pages/technicianDetailReservation/technicianDetailReservation",
+    "pages/customized/customized"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

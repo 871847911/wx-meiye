@@ -1,0 +1,38 @@
+<!--pages/paySuccess/paySuccess.wxml-->
+
+<view class='container'>
+  <view class='header'>{{state}}</view>
+  <view class='main'>
+    <view class='textBox'>
+      <text class='text_l'>预约人数</text>
+      <text class='text_r'>2人</text>
+    </view>
+    <view class='textBox'>
+      <text class='text_l'>预约人信息</text>
+      <text class='text_r'>姓名 1111111111</text>
+    </view>
+    <view class='textBox'>
+      <text class='text_l'>预约技师</text>
+      <text class='text_r'>技师昵称（接受非指定技师服务）</text>
+    </view>
+    <view class='textBox'>
+      <text class='text_l'>预约服务</text>
+      <text class='text_r'>拔罐</text>
+    </view>
+    <view class='textBox'>
+      <text class='text_l'>预约时间</text>
+      <text class='text_r'>2018/05/05 14:00-15:00 周二</text>
+    </view>
+    <view class='textBox'wx:if="{{true}}">
+      <text class='text_l'>取消原因</text>
+      <text class='text_r'>111111111111111111111111111111111111111111</text>
+    </view>
+  </view>
+  <block wx:if="{{true}}">
+    <view class='bottonBox'>
+      <button class='bt_l'>取消预约</button>
+      <button class='bt_r'>修改预约</button>
+    </view>
+  </block>
+
+</view>

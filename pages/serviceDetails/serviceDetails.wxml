@@ -1,0 +1,27 @@
+<!--pages/paySuccess/paySuccess.wxml-->
+
+<view class='container'>
+  <view class='header'>
+    <image src="{{photo}}" class='photo'></image>
+    <view class='mid'>
+      <view class='float_l'>
+        <text class='bTitle'>设计师洗剪吹</text>
+        <view class='padding'>
+          <text class='num'>¥</text>
+          <text class='money'>50</text>
+          <text class='zhidao'>指导价</text>
+        </view>
+      </view>
+
+      <view class='float_r'>预约</view>
+    </view>
+  </view>
+
+  <view class='footer'>
+    <view class='ft_title'>服务介绍</view>
+    <view class='introduce'>
+      Skwend，出生美发世家，父亲韩国籍华人，是韩国最著名的发型设计师和美容化妆师之一，第一届韩国十大发型设计师之一，在他父亲生活的年代，也正是陶瓷烫新起流行的年代；从小Skywend就受到父亲以及父亲行业朋友的熏陶，从小对美发设计和烫发技术有着独特的灵感天赋，Skywend从小就有远大的梦想，希望长大后能把父亲的美发技术以及韩国的先进的烫发技术带出韩国，带入亚洲各个区域。
+    </view>
+  </view>
+
+</view>

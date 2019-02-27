@@ -1,0 +1,8 @@
+@import 'weui.wxss';
+page{
+font-family:PingFangSC-Regular;
+background-color:rgba(245,245,245,1);
+
+height:100%;
+
+}

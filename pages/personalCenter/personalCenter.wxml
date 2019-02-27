@@ -1,0 +1,36 @@
+<!--pages/personalCenter/personalCenter.wxml-->
+<view class='container'>
+  <view class='head'>
+    <image class='head_img' src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+    <view class='name'> nicek</view>
+  </view>
+  <view class='text'>
+  完善个人信息
+    <view class='go'>go</view>
+  </view>
+   <view class='text'>
+  我的预约
+    <view class='go'>go</view>
+  </view>
+   <view class='text'>
+  我的优惠券
+    <view class='go'>go</view>
+  </view>
+  <view class=''></view>
+  <view class='text'>
+    我的积分
+    <view class='num'>200积分</view>
+  </view>
+
+  <view class='company'>微动征程信息提供技术支持</view>
+  <view></view>
+  <navigator class=''></navigator>
+<view class="btn-area">
+  <navigator url="../index/index" open-type="redirect" >首页</navigator>
+  <navigator url="../index/index" open-type="redirect" >品牌</navigator>
+  <navigator url="../index/index" open-type="redirect" >技师</navigator>
+  <navigator url="../index/index" open-type="redirect" >服务</navigator>
+  <navigator url="../index/index" open-type="redirect" >我的</navigator>
+  
+</view>
+</view>

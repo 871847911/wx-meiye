@@ -1,0 +1,6 @@
+/* pages/hisService/hisService.wxss */
+.one{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

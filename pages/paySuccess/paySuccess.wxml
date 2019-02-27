@@ -1,0 +1,7 @@
+<!--pages/paySuccess/paySuccess.wxml-->
+
+<view class='container'>
+  <view class='paySuc'>支付成功</view>
+  <view class='price'>66yuan</view>
+  <button class='return'>返回首页</button>
+</view>

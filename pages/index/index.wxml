@@ -1,0 +1,69 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper class='swiper' autoplay="true" indicator-dots="true">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='store'>
+    <view class='store_all'>
+      <view class='store_name'>侨治美发（滨江龙湖天街店）</view>
+      <view class='location' bindtap='getlocation'>
+        <image class='location_img' src='../../images/home_location.png'></image>
+        杭州市滨江区滨江大道555号</view>
+    </view>
+
+    <view class='store_location'>
+      <view class='store_open'>正在营业</view>
+      <view class='far'>12km</view>
+    </view>
+    <view class='right'>
+      <image class='enter' src='../../images/enter_btn.png'></image>
+    </view>
+  </view>
+
+  <view class='order_pay'>
+    <view class='order' bindtap='gotoOrder'>
+      <image class='clock' src='../../images/home_clock.png'></image>
+      我要预约</view>
+    <view class='pay'>
+      <image class='clock' src='../../images/home_pay.png'></image>
+      优惠买单</view>
+  </view>
+  <!-- 获取用户信息按钮 -->
+  <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+  <view class='coupons_med'>
+    <view class='coupons'>专享优惠券</view>
+    <block wx:for="{{imgUrls}}">
+      <view class='coupons_one' style="background-image: url('../../images/home_sale.png')">
+        <view class='coupons_all'>
+          <view class='coupons_money'>
+          <text class='rmb'>￥</text>
+          <text class='price'>10</text>
+          </view>
+          <view class='coupons_type'>满500元可用</view>
+          <view class='coupons_time'>有效期2018-10-10 — 2018-18-18</view>
+        </view>
+        <view class='ifget'>立即领取</view>
+      </view>
+    </block>
+
+  </view>
+  <view class='phonenumber' bindtap='show_iphone'>
+    <image class='phone' src='../../images/home_phone.png'></image>
+  </view>
+  <view class='jishi' >
+    <text class='coupons_text'>推荐技师</text>
+    <view class='jishi_all'>
+      <view class='jishi_one' wx:for="{{imgUrls}}">
+        <image class='jishi_head' src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+        <view class='jishi_name'>Jack</view>
+      <view class='jishi_lev'>发型总监</view>
+      </view>
+      
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,39 @@
+<!--pages/paySuccess/paySuccess.wxml-->
+
+<view class='container'>
+  <view class='store'>
+    <view class='store_all'>
+      <view class='store_name'>侨治美发（滨江龙湖天街店）</view>
+      <view class='location' bindtap='getlocation'>
+        <image class='location_img' src='../../images/home_location.png'></image>
+        杭州市滨江区滨江大道555号</view>
+    </view>
+    <view class='store_location'>
+      <view class='store_open'>正在营业</view>
+      <view class='far'>12km</view>
+    </view>
+  </view>
+  <view class="mainBox" wx:for="{{twoList}}" wx:key="id">
+    <!-- 技师信息 -->
+    <view class='header'>
+      <view class="weui-cell">
+        <view class="weui-cell__hd" style="position: relative;margin-right: 32rpx;">
+          <image src="../../images/home_location.png" style="width: 128rpx; height:128rpx; display: block;border-radius:50%;" />
+        </view>
+        <view class="weui-cell__bd">
+          <view class='name'>{{item.name}}</view>
+          <view style="font-size: 26rpx;color: #777777;margin-top: 10rpx;">摘要信息</view>
+        </view>
+      </view>
+      <view class='bnt'>预约</view>  <!-- 按钮 -->
+    </view>
+    <!-- 标签 -->
+    <view class='skills'>
+      <block wx:for="{{item.twodata}}" wx:for-item="twodata" wx:key="id">
+        <view class='skill_one' hidden="{{index >= 5}}">{{twodata.name}}</view>
+      </block>
+      <view class='more' wx:if="{{item.twodata.length > 6}}" bindtap='gohisService' >...</view>
+    </view>
+  </view>
+
+</view>

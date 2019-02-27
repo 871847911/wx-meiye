@@ -1,0 +1,17 @@
+/* pages/choseservice/choseservice.wxss */
+.serviveType{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.serviceName{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sure{
+  z-index: 7;
+  position: fixed;
+  width: 750rpx;
+  bottom: 0rpx; 
+}

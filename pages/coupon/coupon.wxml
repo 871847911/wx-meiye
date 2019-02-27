@@ -1,0 +1,30 @@
+<!--pages/paySuccess/paySuccess.wxml-->
+
+<view class='container'>
+  <view class='coupon'>
+    <image class='img' src="../../images/sales_bg.png" ></image>
+    <view class='couponBox'>
+      <view class='boxLeft'>
+        <view class='btitle'>代金券</view>
+        <view class='stitle'>有效期2018.10.10-2018.12.12</view>
+      </view>
+      <view class='boxRight'>
+        <view class='redText'>¥<view class='numbr'>10</view></view>
+        <view class='blackText'>满500可用</view>
+      </view>
+    </view>
+  </view>
+  <view class='coupon'>
+    <image class='img' src="../../images/sales_bg.png" ></image>
+    <view class='couponBox'>
+      <view class='boxLeft'>
+        <view class='btitle'>折扣券</view>
+        <view class='stitle'>有效期2018.10.10-2018.12.12</view>
+      </view>
+      <view class='boxRight'>
+        <view class='redText discountb'>7.<view class='numbr discounts'>7折</view></view>
+        <view class='blackText'>满500可用</view>
+      </view>
+    </view>
+  </view>
+</view>

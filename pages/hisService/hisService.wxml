@@ -1,0 +1,13 @@
+<!--pages/hisService/hisService.wxml-->
+<view class='container'>
+  <view class='serviceType'>
+    服务类型
+  </view>
+  <view class='serviceItem'>
+    <view class='type' wx:for="{{type}}">
+      <view class='one'>服务名称服务名称
+        <view class='money'>100元</view>
+      </view>
+    </view>
+  </view>
+</view>

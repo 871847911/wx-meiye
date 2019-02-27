@@ -1,0 +1,5 @@
+<!--pages/paySuccess/paySuccess.wxml-->
+
+<view class='container'>
+  <view class='submit' bindtap='btnClick'>快速预约</view>
+</view>

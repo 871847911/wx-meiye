@@ -1,0 +1,37 @@
+<view class="container">
+  <view class='head'>
+    <view class='store_img'>
+      <image class='store_img' src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+
+    </view>
+    <view class='store_msg'>
+      <view class='store_name'>
+        店铺名称店铺名称店铺名称
+      </view>
+      <view class='store_location'>杭州市滨江区xx大道</view>
+    </view>
+  </view>
+  <view class='show_store'>
+    <view class='show_text'>店铺展示</view>
+    <swiper class='swiper' autoplay="true" indicator-dots="true">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item  >
+          <image src="{{item}}" class="slide-image" width="355" height="150" bindtap='lookimg' data-id='{{index}}'/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='store_service'>
+    <view class='service_text'>
+      店铺服务
+    </view>
+    <view class='service_type'>
+      <block wx:for="{{test}}">
+        <view class='type'> aaaa</view>
+      </block>
+      <view class='more' hidden='{{isMore}}'>点击更多</view>
+    </view>
+  </view>
+  <view class='store_introduce'>店铺介绍</view>
+  <view class='phonenumber' bindtap='show_iphone'>联系</view> 
+</view>

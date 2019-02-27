@@ -1,0 +1,31 @@
+<!--pages/orderSuccess/orderSuccess.wxml-->
+<view class='container'>
+  <view class='successText'>预约成功</view>
+  <view class='orderNum row'>
+    预约人数：
+    <view class='order_num'>2人</view>
+  </view>
+  <view class='order_person row' >
+    预约人信息：
+    <view class='name'>姓名</view>
+    <view class='phone'>1888888888</view>
+  </view>
+  <view class='orederTechnician row'>
+    预约技师：
+    <view class='name'>昵称昵称（可以接受非指定技师）</view>
+  </view>
+  <view class='orderService row'>
+    预约服务： 
+    <view class='serviceName'>服务名称</view>
+  </view>
+  <view class='orderTime row'>
+    预约时间：
+    <view class='serviceTime'> 2018.5.5 14:00 周二</view>
+  </view>
+  <view class='tip'>
+    您已经成功预约，请按时到店享受服务
+  </view>
+  <button class='return'>
+  返回首页
+  </button>
+</view>

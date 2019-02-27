@@ -1,0 +1,6 @@
+/* pages/orderSuccess/orderSuccess.wxss */
+.row{
+  display: flex;
+  flex-direction: row;
+  
+}
